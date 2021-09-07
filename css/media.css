@@ -1,0 +1,89 @@
+@media(min-width:0px) and (max-width:575px){
+    .navbar-light .navbar-nav .nav-link {
+        margin-left: 0px;
+        display: inline-block;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    .nav-item{
+        text-align: center;
+    }
+    .banner-img{
+        display: none;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .product{
+        padding: 50px;
+    }
+    .dip{
+        padding: 30px;
+    }
+    .dip-img{
+        text-align: center;
+    }
+    .customize{
+        padding: 30px;
+    }
+    .get-part{
+        text-align: center;
+        padding: 20px;
+    }
+    .price-table{
+        padding: 50px;
+
+    }
+    .form-section {
+        width: 70%;
+        bottom: -96%;
+        min-height: 70vh;
+    }
+    
+}
+@media(min-width:0px) and (max-width:425px){
+      .btn{
+          margin-left: 0;
+          margin-bottom: 15px;
+          margin-right: 0px;
+      }
+      .form-section {
+        width: 92%;
+        bottom: -96%;
+        min-height: 70vh;
+        text-align: center;
+    }
+    .map{
+        height: 700;
+    }
+    .form-section input[type="submit"] {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .form-section input{
+        padding: 3px 10px;
+    }
+}
+@media(min-width:0px) and (max-width:320px){
+    .get-part .btn-now{
+        margin-right: 0px;
+
+    }
+    .get-part .btn-view{
+        margin-right: 0px;
+
+    }
+    .form-section {
+        width: 85%;
+        bottom: -96%;
+        min-height: 70vh;
+        text-align: center;
+    }
+    .form-section input[type="submit"] {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .form-section input{
+        padding: 3px 10px;
+    }
+}
